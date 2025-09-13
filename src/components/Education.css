@@ -1,0 +1,54 @@
+.education {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.education-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.education-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, .2) 0px 4px 12px;
+  transition: all 0.2s ease-in;
+ width: 100%;
+}
+
+.education-card:hover {
+     box-shadow: rgba(0, 0, 0, .3) 0px 4px 12px;
+}
+
+.education-card .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  height: fit-content;
+  background-color: whitesmoke;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.education-card .right {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+  .education-card {
+    flex-direction: column;
+  }
+}
