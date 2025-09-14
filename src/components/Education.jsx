@@ -12,8 +12,8 @@ const Education = () => {
           </div>
           <div className="right">
             <div>
-              <h2>B.Tech in Computer Science (AI&nbsp;&&nbsp;ML)</h2>
-              <p>
+              <h3>B.Tech in Computer Science (AI&nbsp;&&nbsp;ML)</h3>
+              <p style={{ fontSize: ".9rem" }}>
                 Baderia Global Institute of Engineering & Management, Jabalpur
               </p>
               <span>CGPA: 7.53</span>
@@ -29,8 +29,8 @@ const Education = () => {
           </div>
           <div className="right">
             <div>
-              <h2>Class XII</h2>
-              <p>Maharishi Vidya Mandir, Seoni</p>
+              <h3>Class XII</h3>
+              <p style={{ fontSize: ".9rem" }}>Maharishi Vidya Mandir, Seoni</p>
 
               <span>77%</span>
             </div>
@@ -45,8 +45,8 @@ const Education = () => {
           </div>
           <div className="right">
             <div>
-              <h2>Class X</h2>
-              <p>Maharishi Vidya Mandir, Seoni</p>
+              <h3>Class X</h3>
+              <p style={{ fontSize: ".9rem" }}>Maharishi Vidya Mandir, Seoni</p>
               <span>81.6%</span>
             </div>
             <div>

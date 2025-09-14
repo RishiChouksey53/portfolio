@@ -7,9 +7,9 @@ const Contact = () => {
       <div>
         <h2>Let's work together</h2>
         <p>
-          I'm currently available for freelance work and job opportunities. If
+          I'm currently available for freelance work and job opportunities. <br /> If
           you have a project that needs some creative thinking or if you're
-          looking to hire, feel free to reach out.
+          looking to hire, <br /> feel free to reach out.
         </p>
         <div className="contact-card">
           <div className="contact-card-left">

@@ -44,10 +44,14 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+    gap: 1rem;
 }
 
 @media (max-width: 768px) {
   .education-card {
     flex-direction: column;
+  }
+  .education-card .left {
+    display: none;
   }
 }
